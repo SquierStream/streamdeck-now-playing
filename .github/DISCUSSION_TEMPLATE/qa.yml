@@ -1,0 +1,27 @@
+title: "[Q&A] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Stuck on installation, a setting, or unexpected behavior? Ask here — check the README's [Known limitations](../../#known-limitations) section first, two common issues (page sync staleness, Wave Link volume overrides) are already documented there.
+  - type: textarea
+    id: question
+    attributes:
+      label: What's going on?
+      description: What did you expect, and what actually happened?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Plugin version
+      description: Found in Stream Deck's plugin list, or the manifest.json Version field.
+    validations:
+      required: false
+  - type: input
+    id: streamdeck-version
+    attributes:
+      label: Stream Deck app version
+    validations:
+      required: false

@@ -1,0 +1,29 @@
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got a suggestion for a new skin, a setting, or a workflow the plugin doesn't support yet? Tell us here.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: Describe the idea — the more specific, the easier it is to act on.
+      placeholder: "e.g. A skin based on Duolingo's progress owl, or a setting to hide the artist line."
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference images or examples (optional)
+      description: Screenshots, mockups, or links help a lot for skin ideas.
+    validations:
+      required: false
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this help you?
+      description: What's the use case or problem this solves?
+    validations:
+      required: false

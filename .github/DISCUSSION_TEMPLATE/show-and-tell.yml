@@ -1,0 +1,14 @@
+title: ""
+labels: ["show-and-tell"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Show off your dial setup, a profile layout, or a skin concept you sketched out.
+  - type: textarea
+    id: showcase
+    attributes:
+      label: What are you sharing?
+      description: A screenshot, GIF, or description works great.
+    validations:
+      required: true
